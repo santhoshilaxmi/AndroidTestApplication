@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent launchActivity2 = new Intent(getApplicationContext(), MainActivity2.class);
                 launchActivity2.putExtra("Sum",sum);
                 MainActivity.this.startActivity(launchActivity2);
-                finish();
+
             }
         });
 
@@ -55,7 +55,6 @@ public class MainActivity extends AppCompatActivity {
                         Intent launchActivity2 = new Intent(getApplicationContext(), MainActivity2.class);
                         launchActivity2.putExtra("Sum",sum);
                         MainActivity.this.startActivity(launchActivity2);
-                        finish();
                     }
                 });
 
